@@ -1,0 +1,20 @@
+Before running the system please run the file install.sh as
+
+sh install.sh
+
+Then follow the following steps. It requires python2.7 to run the file.
+
+The file that has our code resides in the qa_system.zip and is named as quesAnsSys.py, unzip the file and then our program can be run as 
+
+/usr/local/stow/python/amd64_linux26/python-2.7.3/bin/python quesAnsSys.py <input.txt>
+
+from the unzipped folder
+
+I am downloading stanford-corenlp-python folder because 
+it is a library we are using in the project for POS Tagging and Named Entity Recognition.
+
+This file finally produces an output response_file.txt which has the answers to our questions.
+
+Our system also runs very slow and it take 20-30 minutes processes all question given in the developset, so depending on the size of the testiest it may take more or less time and also depending on the machine.
+
+My email id is soumyasmruti@gmail.com and phone number 385-216-5363. If you have any problem running my code please let me know, I have invested lot of time developing it and it may take small tweaks if it doesn’t run after reading this file.
